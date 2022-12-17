@@ -4,22 +4,50 @@ import './Table.css'
 
 function Table() {
     const users = [
-        {userName: 'moh144', name: 'mohamud', posts: '10', comments: '11', country: 'ethiopia'},
-        {userName: 'lincon111', name: 'lincoln', posts: '13', comments: '8', country: 'kenya'},
-        {userName: 'musas43',  name: 'musas', posts: '12', comments: '14', country: 'uk', isActive: true}
-      ]
-  return (
-    <div className='table'>
-         {users.map((user) => (
+      
+      {name: 'mohamud', age: '36', location: 'ethiopia', img: "https://picsum.photos/id/1/200/400"},
+      {name: 'linconl', age: '30', location: 'kenya', img: "https://picsum.photos/id/1/200/300"},
+      {name: 'john', age: '25', location: 'tanzania', img: "https://picsum.photos/id/1/300/500"},
+    ]
+      return (
+    <div className='container'>
+      <table className='table'>
+        <thead className='table-light'>
+          <th>profile</th>
+          <th>name</th>
+          <th>age</th>
+          <th>location</th>
+        </thead>
+        <tbody>
+          {users.map((user) =>(
+            <tr>
+              <td>
+                <img src={user.img}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  borderRadius: "50%"
+                }}
+                alt={user.name}
+                />
+              </td>
+              <td>{user.name}</td>
+              <td>{user.age}</td>
+              <td>{user.location}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+         {/* { {users.map((user) => (
         <div>
             <h1>{user.userName}</h1>
             <p>{user.name}</p>
             <p>{user.posts}</p>
             <p>{user.comments}</p>
             <p>{user.country}</p>
-            {user?.isActive && <h1>{user.name} is active</h1>}
+             
         </div>
-))} 
+ ))}  */}
     </div>
   )
 }
