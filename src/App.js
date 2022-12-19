@@ -1,10 +1,12 @@
 import './App.css';
-import Table from './Components/Table';
+import Learning from './Components/Learning';
+import TableOne from './Components/TableOne';
 
 function App() {
   return (
     <div className="App">
-       <Table/>
+      <Learning/>
+       {/* <TableOne/> */}
       
     </div>
   );
