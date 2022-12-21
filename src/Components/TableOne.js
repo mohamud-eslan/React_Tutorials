@@ -41,16 +41,7 @@ function TableOne() {
           ))}
         </tbody>
       </Table>
-         {/* { {users.map((user) => (
-        <div>
-            <h1>{user.userName}</h1>
-            <p>{user.name}</p>
-            <p>{user.posts}</p>
-            <p>{user.comments}</p>
-            <p>{user.country}</p>
-             
-        </div>
- ))}  */}
+        
     </div>
   )
 }
