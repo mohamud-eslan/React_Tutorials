@@ -1,16 +1,22 @@
 import './App.css';
+import EffectHook from './Components/EffectHook';
+import FetchData from './Components/FetchData';
 import Increase from './Components/Increase';
 import Learning from './Components/Learning';
 import Products from './Components/Products';
+import ReactHook from './Components/ReactHook';
 import TableOne from './Components/TableOne';
 import Timer from './Components/Timer';
 import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-        <h1>Products</h1>
+      <FetchData />
+      {/* <EffectHook /> */}
+      {/* <ReactHook /> */}
+        {/* <h1>Products</h1> */}
       <div>
-      <Products
+      {/* <Products
           img="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/6142201/1.jpg?2933"
           name="Cyxus"
           desc="Non-Slip Fitness Leisure Running Sneakers"
@@ -27,7 +33,7 @@ function App() {
           name="Aomei"
           desc="Men's Trend Casual Sports Shoe"
           price="$40"
-        />
+        /> */}
       </div>
      
       {/* <Timer /> */}
