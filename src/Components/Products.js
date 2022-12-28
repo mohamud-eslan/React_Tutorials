@@ -1,6 +1,7 @@
 import React from 'react'
 
-function products  ({ img, name, desc, price})  {
+function products  (props)  {
+  const { img, name, desc, price} = props
   return (
     <div>
     <img src={img} alt="products" />
