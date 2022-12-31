@@ -5,13 +5,15 @@ import Increase from './Components/Increase';
 import Learning from './Components/Learning';
 import Products from './Components/Products';
 import ReactHook from './Components/ReactHook';
+import StateCom from './Components/StateCom';
 import TableOne from './Components/TableOne';
 import Timer from './Components/Timer';
 import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <FetchData />
+      <StateCom />
+      {/* <FetchData /> */}
       {/* <EffectHook /> */}
       {/* <ReactHook /> */}
         {/* <h1>Products</h1> */}
