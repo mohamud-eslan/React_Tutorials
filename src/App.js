@@ -5,6 +5,7 @@ import Increase from './Components/Increase';
 import Learning from './Components/Learning';
 import Products from './Components/Products';
 import ReactHook from './Components/ReactHook';
+import SetStat from './Components/SetStat';
 import StateCom from './Components/StateCom';
 import TableOne from './Components/TableOne';
 import Timer from './Components/Timer';
@@ -12,7 +13,8 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <StateCom />
+      <SetStat />
+      {/* <StateCom /> */}
       {/* <FetchData /> */}
       {/* <EffectHook /> */}
       {/* <ReactHook /> */}
