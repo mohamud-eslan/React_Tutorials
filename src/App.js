@@ -1,4 +1,5 @@
 import './App.css';
+import Destructuring from './Components/Destructuring';
 import EffectHook from './Components/EffectHook';
 import FetchData from './Components/FetchData';
 import Increase from './Components/Increase';
@@ -13,7 +14,8 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <SetStat />
+      <Destructuring name="mohamed" heroName="khadar"/>
+      {/* <SetStat /> */}
       {/* <StateCom /> */}
       {/* <FetchData /> */}
       {/* <EffectHook /> */}
