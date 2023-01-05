@@ -4,6 +4,7 @@ import EffectHook from './Components/EffectHook';
 import FetchData from './Components/FetchData';
 import Increase from './Components/Increase';
 import Learning from './Components/Learning';
+import Memorize from './Components/Memorize';
 import Products from './Components/Products';
 import ReactHook from './Components/ReactHook';
 import ReviseEffect from './Components/ReviseEffect';
@@ -16,7 +17,8 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <ReviseUseS />
+      <Memorize />
+      {/* <ReviseUseS /> */}
       {/* <ReviseEffect /> */}
       {/* <Destructuring name="mohamed" heroName="khadar"/> */}
       {/* <SetStat /> */}
