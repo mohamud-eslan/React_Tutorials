@@ -12,7 +12,7 @@ function ReviseEffect() {
         return() => {
             clearInterval(internval)
         }
-    }, [])
+    }, [count])
 
     
    

@@ -7,6 +7,7 @@ import Learning from './Components/Learning';
 import Products from './Components/Products';
 import ReactHook from './Components/ReactHook';
 import ReviseEffect from './Components/ReviseEffect';
+import ReviseUseS from './Components/ReviseUseS';
 import SetStat from './Components/SetStat';
 import StateCom from './Components/StateCom';
 import TableOne from './Components/TableOne';
@@ -15,7 +16,8 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <ReviseEffect />
+      <ReviseUseS />
+      {/* <ReviseEffect /> */}
       {/* <Destructuring name="mohamed" heroName="khadar"/> */}
       {/* <SetStat /> */}
       {/* <StateCom /> */}
