@@ -1,4 +1,5 @@
 import './App.css';
+import ClassClick from './Components/ClassClick';
 import Destructuring from './Components/Destructuring';
 import EffectHook from './Components/EffectHook';
 import FetchData from './Components/FetchData';
@@ -18,6 +19,7 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
+      <ClassClick />
       <FunctionClick />      
       {/* <Memorize /> */}
       {/* <ReviseUseS /> */}
