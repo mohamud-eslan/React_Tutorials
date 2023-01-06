@@ -2,6 +2,7 @@ import './App.css';
 import Destructuring from './Components/Destructuring';
 import EffectHook from './Components/EffectHook';
 import FetchData from './Components/FetchData';
+import FunctionClick from './Components/FunctionClick';
 import Increase from './Components/Increase';
 import Learning from './Components/Learning';
 import Memorize from './Components/Memorize';
@@ -17,7 +18,8 @@ import StudyUseEff from './StudyUseEff';
 function App() {
   return (
     <div className="App">
-      <Memorize />
+      <FunctionClick />      
+      {/* <Memorize /> */}
       {/* <ReviseUseS /> */}
       {/* <ReviseEffect /> */}
       {/* <Destructuring name="mohamed" heroName="khadar"/> */}
