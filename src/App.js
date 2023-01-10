@@ -1,4 +1,6 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, form } from 'react-bootstrap';
 import ClassClick from './Components/ClassClick';
 import Destructuring from './Components/Destructuring';
 import EffectHook from './Components/EffectHook';
@@ -16,11 +18,13 @@ import StateCom from './Components/StateCom';
 import TableOne from './Components/TableOne';
 import Timer from './Components/Timer';
 import StudyUseEff from './StudyUseEff';
+import InfoForm from './Components/InfoForm';
 function App() {
   return (
     <div className="App">
-      <ClassClick />
-      <FunctionClick />      
+      <InfoForm />
+      {/* <ClassClick />
+      <FunctionClick />       */}
       {/* <Memorize /> */}
       {/* <ReviseUseS /> */}
       {/* <ReviseEffect /> */}
